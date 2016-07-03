@@ -1,7 +1,7 @@
 {
 "manifest_version": 2,
-    "name": "Intergalactic News",
-    "description": "Make the news a little more interesting. Mostly Star Wars themed",
+    "name": "extension",
+    "description": "no",
     "version": "1.0",
     "content_scripts": [
         {

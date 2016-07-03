@@ -32,10 +32,7 @@ function replaceText(v)
 
     v = v.replace(/\bBill Clinton\b/g, "Mr.BigSaber");
     v = v.replace(/\bHillary('s|s(?:')?)?\b/g, "Protocol$1");
-
     v = v.replace(/\bClinton\b/g, "Humanoid Droid");
-
-
     v = v.replace(/\bRodham\b/g, "");
 
 
@@ -52,8 +49,12 @@ function replaceText(v)
     v = v.replace(/\bJeb Bush('s|s(?:')?)?\b/g, "Some sad man$1");
     v = v.replace(/\bJoe Biden('s|s(?:')?)?\b/g, "Joe-Bi Den Kenobi$1");
 
-    v = v.replace(/\bTed Cruz\b/g, "Count Dooku");
-
+    v = v.replace(/\bTed Cruz\b/g, "Bridge Troll");
+    v = v.replace(/\bCruz('s|s(?:')?)?\b/g,"Troll$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
 
     //  Government terms
     v = v.replace(/\bVP\b/g, "apprentice");
@@ -63,10 +64,11 @@ function replaceText(v)
     v = v.replace(/\bSecretary of State('s|s(?:')?)?\b/g,"Supreme Chancellor$1");
     v = v.replace(/\bPresident('s|s(?:')?)?\b/g,"Emperor$1");
     v = v.replace(/\bcabinet('s|s(?:')?)?\b/g,"bundle of personal ewoks$1");
-    v = v.replace(/\bmilitary('s|s(?:')?)?\b/g,"like seven Storm Troopers$1");
+    v = v.replace(/\bmilitary('s|s(?:')?)?\b/g,"gang of like seven Storm Troopers$1");
+    v = v.replace(/\bMilitary('s|s(?:')?)?\b/g,"gang of like seven Storm Troopers$1");
     v = v.replace(/\barmy('s|s(?:')?)?\b/g,"around four Storm Troopers$1");
     v = v.replace(/\bWhite House('s|s(?:')?)?\b/g,"Jedi Temple$1");
-    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\brealDonaldTrump('s|s(?:')?)?\b/g,"notSmallHands$1");
     v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
     v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
     v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
@@ -82,7 +84,7 @@ function replaceText(v)
     //  Places
     v = v.replace(/\bRussia('s|s(?:')?)?\b/g, "Hoth$1");
     v = v.replace(/\bMiddle East('s|s(?:')?)?\b/g, "Tattoine$1");
-    v = v.replace(/\bChina('s|s(?:')?)?\b/g, "_");
+    v = v.replace(/\bChina('s|s(?:')?)?\b/g, "Jeffrey");
     v = v.replace(/\bSyria('s|s(?:')?)?\b/g, "Jakku$1");
 
 
