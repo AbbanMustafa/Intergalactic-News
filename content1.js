@@ -29,71 +29,77 @@ function replaceText(v)
     // Main Politicians
     v = v.replace(/\bDonald Trump('s|s(?:')?)?\b/g, "Sith Lord Trump$1");
     v = v.replace(/\bTrump('s|s(?:')?)?\b/g, "Darth Trump$1");
-    v = v.replace(/\bHillary Rodham Clinton('s|s(?:')?)?\b/g, "Supreme Chancellor Clinton$1");
-    v = v.replace(/\bHillary Clinton('s|s(?:')?)?\b/g, "Supreme Chancellor Clinton$1");
+
+    v = v.replace(/\bBill Clinton\b/g, "Mr.BigSaber");
+    v = v.replace(/\bHillary('s|s(?:')?)?\b/g, "Protocol$1");
+
+    v = v.replace(/\bClinton\b/g, "Humanoid Droid");
+
+
+    v = v.replace(/\bRodham\b/g, "");
+
+
     v = v.replace(/\bBernie Sanders('s|s(?:')?)?\b/g, "Jewish Yoda$1");
+    v = v.replace(/\bBernie('s|s(?:')?)?\b/g, "Jewish Yoda$1");
     v = v.replace(/\bSanders('s|s(?:')?)?\b/g, "Jewish Yoda$1");
-    v = v.replace(/\bElizabeth Warren('s|s(?:')?)?\b/g, "Jar Jar Binks");
+
+    v = v.replace(/\bElizabeth Warren('s|s(?:')?)?\b/g, "Jar Jar Binks$1");
+    v = v.replace(/\bWarren('s|s(?:')?)?\b/g, "Jar Jar Binks$1");
 
     v = v.replace(/\b(Barack Obama|Obama)('s|s(?:')?)?\b/g, "Mace Windu");
 
-    v = v.replace(/\bChris Christie('s|s(?:')?)?\b/g, "Christie the hutt$1");
+    v = v.replace(/\bChristie('s|s(?:')?)?\b/g, "Christie the hutt$1");
     v = v.replace(/\bJeb Bush('s|s(?:')?)?\b/g, "Some sad man$1");
-    v = v.replace(/\Joe Biden('s|s(?:')?)?\b/g, "Joe-Biden Kenobi$1");
+    v = v.replace(/\bJoe Biden('s|s(?:')?)?\b/g, "Joe-Bi Den Kenobi$1");
 
-    v = v.replace(/\Ted Cruz\b/g, "Count Dooku");
-    v = v.replace(/\_\b/g, "_");
+    v = v.replace(/\bTed Cruz\b/g, "Count Dooku");
 
 
     //  Government terms
-    v = v.replace(/\vp\b/g, "apprentice");
-    v = v.replace(/\_\b/g, "_");
-    v = v.replace(/\_\b/g, "_");
-    v = v.replace(/\_\b/g, "_");
-    v = v.replace(/\_\b/g, "_");
-    v = v.replace(/\_\b/g, "_");
-    v = v.replace(/\_\b/g, "_");
-    v = v.replace(/\_\b/g, "_");
-    v = v.replace(/\_\b/g, "_");
-    v = v.replace(/\_\b/g, "_");
-    v = v.replace(/\_\b/g, "_");
-
+    v = v.replace(/\bVP\b/g, "apprentice");
+    v = v.replace(/\bCongress\b/g, "the Jedi High Council");
+    v = v.replace(/\bcongress\b/g, "the jedi high council");
+    v = v.replace(/\bPolitician\b/g, "Sand person");
+    v = v.replace(/\bSecretary of State('s|s(?:')?)?\b/g,"Supreme Chancellor$1");
+    v = v.replace(/\bPresident('s|s(?:')?)?\b/g,"Emperor$1");
+    v = v.replace(/\bcabinet('s|s(?:')?)?\b/g,"bundle of personal ewoks$1");
+    v = v.replace(/\bmilitary('s|s(?:')?)?\b/g,"like seven Storm Troopers$1");
+    v = v.replace(/\barmy('s|s(?:')?)?\b/g,"around four Storm Troopers$1");
+    v = v.replace(/\bWhite House('s|s(?:')?)?\b/g,"Jedi Temple$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
 
     //  Places
-    v = v.replace(/\Russia('s|s(?:')?)?\b/g, "Hoth");
-    v = v.replace(/\Middle East('s|s(?:')?)?\b/g, "Tattoine");
-    v = v.replace(/\China\b/g, "_");
-    v = v.replace(/\Syria('s|s(?:')?)?\b/g, "Jakku");
-    v = v.replace(/\_\b/g, "_");
-    v = v.replace(/\_\b/g, "_");
-    v = v.replace(/\_\b/g, "_");
-    v = v.replace(/\_\b/g, "_");
-    v = v.replace(/\_\b/g, "_");
+    v = v.replace(/\bRussia('s|s(?:')?)?\b/g, "Hoth$1");
+    v = v.replace(/\bMiddle East('s|s(?:')?)?\b/g, "Tattoine$1");
+    v = v.replace(/\bChina('s|s(?:')?)?\b/g, "_");
+    v = v.replace(/\bSyria('s|s(?:')?)?\b/g, "Jakku$1");
 
 
 
-    // Millennial
-    v = v.replace(/\bCongress\b/g, "Jedi Council");
-    v = v.replace(/\bcongress\b/g, "jedi council");
-    v = v.replace(/\bPolitician(?:(s)\b(')|s\b)/g, "Ewok$2$1");
-    v = v.replace(/\bSenator(?:(s)\b(')|s\b)/g, "Sand Person$2$1");
 
-    // The Great Recession
+
+    // Events
     v = v.replace(/\bGreat Recession\b/g, "Phantom Menace");
     v = v.replace(/\bgreat recession\b/g, "phantom menace");
-    v = v.replace(/\Iraq War\b/g, "Clone Wars");
-    v = v.replace(/\_\b/g, "_");
-    v = v.replace(/\_\b/g, "_");
-    v = v.replace(/\_\b/g, "_");
+    v = v.replace(/\bIraq War\b/g, "Clone Wars");
 
     // The Great Depression
     v = v.replace(/\bGreat Depression\b/g, "Clutch Plague");
     v = v.replace(/\bgreat depression\b/g, "clutch plague");
 
-    // Occupy Wall Street
-    v = v.replace(
-        /\b(?:(?:Occupy|OWS) (?:M|m)ovement)|(?:Occupy Wall Street)\b/g,
-        "Great Ape-Snake War");
+    // Memes
+    v = v.replace(/\bEmail('s|s(?:')?)?\b/g,"Hologram$1");
 
 
 
