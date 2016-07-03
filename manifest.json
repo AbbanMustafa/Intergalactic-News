@@ -1,0 +1,17 @@
+{
+"manifest_version": 2,
+    "name": "Intergalactic News",
+    "description": "Make the news a little more interesting",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content1.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
