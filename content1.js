@@ -45,9 +45,15 @@ function replaceText(v)
 
     v = v.replace(/\b(Barack Obama|Obama)('s|s(?:')?)?\b/g, "Mace Windu");
 
-    v = v.replace(/\bChristie('s|s(?:')?)?\b/g, "Christie the hutt$1");
+    v = v.replace(/\bChris Christie('s|s(?:')?)?\b/g, "Christie the hutt$1");
     v = v.replace(/\bJeb Bush('s|s(?:')?)?\b/g, "Some sad man$1");
+    v = v.replace(/\bJeb('s|s(?:')?)?\b/g,"Some sad man$1");
     v = v.replace(/\bJoe Biden('s|s(?:')?)?\b/g, "Joe-Bi Den Kenobi$1");
+    v = v.replace(/\bMitch McConnell('s|s(?:')?)?\b/g,"Turtle Man$1");
+    v = v.replace(/\bMcConnell('s|s(?:')?)?\b/g,"Turtle Man$1");
+    v = v.replace(/\bNewt Gingrich('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
 
     v = v.replace(/\bTed Cruz\b/g, "Bridge Troll");
     v = v.replace(/\bCruz('s|s(?:')?)?\b/g,"Troll$1");
@@ -57,18 +63,39 @@ function replaceText(v)
     v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
 
     //  Government terms
-    v = v.replace(/\bVP\b/g, "apprentice");
+    v = v.replace(/\bVP\b/g, "Padawan");
+    v = v.replace(/\bSenator('s|s(?:')?)?\b/g,"Admiral$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
     v = v.replace(/\bCongress\b/g, "the Jedi High Council");
     v = v.replace(/\bcongress\b/g, "the jedi high council");
     v = v.replace(/\bPolitician\b/g, "Sand person");
     v = v.replace(/\bSecretary of State('s|s(?:')?)?\b/g,"Supreme Chancellor$1");
     v = v.replace(/\bPresident('s|s(?:')?)?\b/g,"Emperor$1");
     v = v.replace(/\bcabinet('s|s(?:')?)?\b/g,"bundle of personal ewoks$1");
-    v = v.replace(/\bmilitary('s|s(?:')?)?\b/g,"gang of like seven Storm Troopers$1");
-    v = v.replace(/\bMilitary('s|s(?:')?)?\b/g,"gang of like seven Storm Troopers$1");
+
+    v = v.replace(/\bmilitary('s|s(?:')?)?\b/g,"imperial fleet$1");
+    v = v.replace(/\bMilitary('s|s(?:')?)?\b/g,"Imperial fleet$1");
     v = v.replace(/\barmy('s|s(?:')?)?\b/g,"around four Storm Troopers$1");
+
     v = v.replace(/\bWhite House('s|s(?:')?)?\b/g,"Jedi Temple$1");
     v = v.replace(/\brealDonaldTrump('s|s(?:')?)?\b/g,"notSmallHands$1");
+    v = v.replace(/\bDemocrat('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\bLiberal('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\bProgressive('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\bLeftist('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\bDemocratic('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\bRepublican('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
     v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
     v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
     v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
@@ -95,6 +122,20 @@ function replaceText(v)
     v = v.replace(/\bGreat Recession\b/g, "Phantom Menace");
     v = v.replace(/\bgreat recession\b/g, "phantom menace");
     v = v.replace(/\bIraq War\b/g, "Clone Wars");
+    v = v.replace(/\bISIS('s|s(?:')?)?\b/g,"Sand People$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+
 
     // The Great Depression
     v = v.replace(/\bGreat Depression\b/g, "Clutch Plague");
@@ -148,5 +189,5 @@ function walkAndObserve(doc) {
         titleObserver = new MutationObserver(observerCallback);
         titleObserver.observe(docTitle, observerConfig);
     }
-}
-walkAndObserve(document);
+} 
+      walkAndObserve(document);
