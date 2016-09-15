@@ -52,8 +52,8 @@ function replaceText(v)
     v = v.replace(/\bMitch McConnell('s|s(?:')?)?\b/g,"Turtle Man$1");
     v = v.replace(/\bMcConnell('s|s(?:')?)?\b/g,"Turtle Man$1");
     v = v.replace(/\bNewt Gingrich('s|s(?:')?)?\b/g,"_$1");
-    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
-    v = v.replace(/\b_('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\bGary Johnson('s|s(?:')?)?\b/g,"_$1");
+    v = v.replace(/\bJill Stein('s|s(?:')?)?\b/g,"_$1");
 
     v = v.replace(/\bTed Cruz\b/g, "Bridge Troll");
     v = v.replace(/\bCruz('s|s(?:')?)?\b/g,"Troll$1");
@@ -111,7 +111,7 @@ function replaceText(v)
     //  Places
     v = v.replace(/\bRussia('s|s(?:')?)?\b/g, "Hoth$1");
     v = v.replace(/\bMiddle East('s|s(?:')?)?\b/g, "Tattoine$1");
-    v = v.replace(/\bChina('s|s(?:')?)?\b/g, "Jeffrey");
+    v = v.replace(/\bChina('s|s(?:')?)?\b/g, "China");
     v = v.replace(/\bSyria('s|s(?:')?)?\b/g, "Jakku$1");
 
 
