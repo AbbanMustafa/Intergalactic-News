@@ -34,6 +34,8 @@ function replaceText(v)
     v = v.replace(/\bHillary('s|s(?:')?)?\b/g, "Protocol$1");
     v = v.replace(/\bClinton\b/g, "Humanoid Droid");
     v = v.replace(/\bRodham\b/g, "");
+    
+    v = v.replace(/\bMike Pence\b/g, "Benevolent Family man");
 
 
     v = v.replace(/\bBernie Sanders('s|s(?:')?)?\b/g, "Jewish Yoda$1");
